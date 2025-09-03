@@ -4,18 +4,19 @@ import LatestNews from "../../Components/LatestNews";
 import Navbar from "../../Components/Navbar";
 
 const Home = () => {
-    //   useEffect(() => {
-    //     window.scrollTo({ top: 0, behavior: "smooth" });
-    //   }, []);
-    return (
-        <div className="max-w-7xl mx-auto">
-            <Navbar />
-            
-            <Banner />
-            <LatestNews />
-            <Contact/>
-        </div>
-    );
+  //   useEffect(() => {
+  //     window.scrollTo({ top: 0, behavior: "smooth" });
+  //   }, []);
+  return (
+    <div>
+      <Navbar />
+      <Banner />
+      <div className="max-w-7xl mx-auto">
+        <LatestNews />
+        <Contact />
+      </div>
+    </div>
+  );
 };
 
 export default Home;
