@@ -5,8 +5,7 @@ const Home = () => {
     //     window.scrollTo({ top: 0, behavior: "smooth" });
     //   }, []);
     return (
-        <div className="max-w-7xl">
-            <p>Home, muntasir vai</p>
+        <div className="max-w-7xl mx-auto">
             <Contact/>
         </div>
     );
