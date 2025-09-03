@@ -4,7 +4,7 @@ const Home = () => {
     //   }, []);
     return (
         <div>
-            <p>Hello World</p>
+            <p>Home, muntasir vai</p>
         </div>
     );
 };
