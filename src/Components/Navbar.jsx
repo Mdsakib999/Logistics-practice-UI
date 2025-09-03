@@ -5,7 +5,7 @@ import { IoCall } from "react-icons/io5";
 const Navbar = () => {
   return (
     //header section
-    <div className="bg-[#172a5b] flex justify-between items-center">
+    <div className="bg-[#172a5b] flex justify-between items-center px-4">
       <div className="header-logo">
         <img src={logo} className="w-36" alt="logo image" />
       </div>
