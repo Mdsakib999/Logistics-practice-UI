@@ -7,7 +7,7 @@ const Home = () => {
       // }, []);
     return (
         <div>
-            <p>Home</p>
+            <p>Home, muntasir vai</p>
         </div>
     );
 };
