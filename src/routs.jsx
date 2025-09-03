@@ -7,5 +7,3 @@ const router = createBrowserRouter([
   },
 ]);
 export default router;
-// muntasir dummy comment
-// aro kiso comment
