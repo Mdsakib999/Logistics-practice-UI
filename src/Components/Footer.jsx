@@ -64,11 +64,20 @@ const Footer = () => {
             </div>
           </div>
           <div className="">
-            <hr style={{ width: "full", marginTop: "20px", color: "white" }} />
+            <hr
+              style={{
+                width: "full",
+                marginTop: "20px",
+                color: "white",
+                opacity: ".5",
+              }}
+            />
           </div>
-          <div className="list-items flex text-white justify-between pr-2">
+          <div className="list-items flex text-white justify-between pt-4 pr-2">
             <ul className="space-y-1">
-              <li className="text-xl font-semibold text-blue-500">Useful Links</li>
+              <li className="text-xl font-semibold text-blue-500">
+                Useful Links
+              </li>
               <li>Home</li>
               <li>About us</li>
               <li>Services</li>
@@ -90,11 +99,21 @@ const Footer = () => {
           </div>
         </div>
       </div>
-                <hr style={{ width: "full", marginTop: "20px", color: "white" }} />
+      <hr
+        style={{
+          width: "full",
+          marginTop: "20px",
+          color: "white",
+          opacity: ".5",
+        }}
+      />
       <div className="bottom-footer max-w-7xl mx-auto p-4">
         <ul className="flex justify-between text-gray-400">
           <li>Terms and Condition</li>
-          <li> <span>&copy;</span>2025 SM IT || All rights reserved </li>
+          <li>
+            {" "}
+            <span>&copy;</span>2025 SM IT || All rights reserved{" "}
+          </li>
           <li>Privacy Policy</li>
         </ul>
       </div>
