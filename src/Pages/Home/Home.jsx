@@ -20,7 +20,6 @@ const Home = () => {
       <Navbar />
       <Banner />
       <div className="max-w-7xl mx-auto">
-        <Aboutus />
         <Offer />
         <Working />
         <Ourservice />
