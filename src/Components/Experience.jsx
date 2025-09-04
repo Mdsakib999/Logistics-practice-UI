@@ -1,10 +1,7 @@
-import { IoLocationSharp } from "react-icons/io5";
-import { FaLocationArrow } from "react-icons/fa";
-import { FaArrowUpRightFromSquare } from "react-icons/fa6";
-import { SlEarphonesAlt } from "react-icons/sl";
-import Preheading from "../utils/Preheading";
 import { FaArrowRight } from "react-icons/fa";
+import { SlEarphonesAlt } from "react-icons/sl";
 import CustomeBtn from "../utils/CustomeBtn";
+import Preheading from "../utils/Preheading";
 
 const Experience = () => {
   return (
@@ -12,22 +9,24 @@ const Experience = () => {
       <Preheading>Our Experience</Preheading>
 
       <div className="w-full flex justify-between">
-        
         <div className="w-1/3">
-            <h1 className="font-bold py-6 text-gray-900 text-3xl mb-2">We are a Leading one-stop Logistic Service provider helps to Reach Your <span className="text-blue-600">Delay and Damages.</span></h1>
-            <div className="flex justify-between">
-                <div className="flex justify-center items-center gap-4">
-                    <SlEarphonesAlt size={35}/>
-                    <p>
-                        <span className="opacity-80">Call Us anytime</span> <br /> <span className="text-black font-semibold">+1(212)255-511</span>
-                    </p>
-                </div>
-                <div>
-                    <CustomeBtn>Know More</CustomeBtn>
-                </div>
+          <h1 className="font-bold py-6 text-gray-900 text-3xl mb-2">
+            We are a Leading one-stop Logistic Service provider helps to Reach
+            Your <span className="text-blue-600">Delay and Damages.</span>
+          </h1>
+          <div className="flex justify-between">
+            <div className="flex justify-center items-center gap-4">
+              <SlEarphonesAlt size={35} />
+              <p>
+                <span className="opacity-80">Call Us anytime</span> <br />{" "}
+                <span className="text-black font-semibold">+1(212)255-511</span>
+              </p>
             </div>
+            <div>
+              <CustomeBtn>Know More</CustomeBtn>
+            </div>
+          </div>
         </div>
-
 
         <div className="w-3/5 grid grid-cols-3 gap-4 ">
           <div className="bg-[url('https://i.ibb.co.com/B2wrCrzF/pexels-nikita-grishin-128711293-10406140.jpg')] h-[300px] rounded-xl relative bg-center bg-cover transition-transform duration-500 ease-in-out hover:scale-105 overflow-hidden">
