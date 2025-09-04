@@ -1,16 +1,18 @@
 import { FaCheckCircle } from "react-icons/fa";
 import Preheading from "../utils/Preheading";
 import { IoManSharp } from "react-icons/io5";
+import CustomeBtn from "../utils/CustomeBtn";
+import { IoIosArrowForward } from "react-icons/io";
 export default function Aboutus() {
   return (
-    <div className="flex my-4 justify-between gap-10">
+    <div className="flex my-4 justify-between gap-10 pb-24">
       <div className="image-section w-1/2 relative">
         <Preheading>About Us</Preheading>
         <div className="mt-16 w-1/2 ">
           <img src="https://i.ibb.co.com/TDGp0KBX/ship.png" className="w-100% rounded-xl" alt="ship" />
 
           <img src="https://i.ibb.co.com/x838Q9DT/Truck.png" className="absolute w-60 rounded-xl h-86 top-16 left-36" alt="truck" />
-          <div className="flex justify-between w-72 p-4 bg-gradient-to-r from-[#4d5968] via-white to-white absolute -bottom-10 left-60 rounded-xl">
+          <div className="flex justify-between w-72 p-4 bg-gradient-to-r from-[#4d5968] via-white to-white absolute -bottom-10 left-60 rounded-xl drop-shadow-lg">
           <div className="bg-[#213f8a] flex items-center justify-center px-2 rounded-full">
                 <IoManSharp style={{color:"white",fontSize:"32px"}} />
           </div>   
@@ -69,6 +71,11 @@ export default function Aboutus() {
             </div>
 
           </div>
+        </div>
+        <div className="flex gap-4 mt-8 relative">
+            <CustomeBtn><span className="flex">Contact Us<IoIosArrowForward style={{marginTop:"7px",marginLeft:"10px"}} /></span>  </CustomeBtn>
+            <CustomeBtn><span className="flex">Request a quote<IoIosArrowForward style={{marginTop:"7px",marginLeft:"10px"}} /></span>  </CustomeBtn>
+            <img src="https://i.ibb.co.com/JFSY2hL5/miniCar.png" className="absolute -bottom-20 left-96 w-36" alt="" />
         </div>
       </div>
     </div>
