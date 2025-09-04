@@ -3,6 +3,7 @@ import Preheading from "../utils/Preheading";
 import { IoManSharp } from "react-icons/io5";
 import CustomeBtn from "../utils/CustomeBtn";
 import { IoIosArrowForward } from "react-icons/io";
+import CountUpText from "../utils/CountUp";
 export default function Aboutus() {
   return (
     <div className="flex my-4 justify-between gap-10 pb-24">
@@ -42,7 +43,7 @@ export default function Aboutus() {
           <div className="flex items-center gap-4">
             <FaCheckCircle style={{ backgroundColor: "#213f8a" }} />
             <div className="">
-            <p>400+</p>
+            <p><CountUpText end={400} duration={3} />+</p>
             <p>Merchants Nationwide</p>                
             </div>
 
@@ -50,7 +51,7 @@ export default function Aboutus() {
           <div className="flex items-center gap-4">
             <FaCheckCircle style={{ backgroundColor: "#213f8a" }} />
             <div className="">
-            <p>400+</p>
+            <p><CountUpText end={400} duration={3} />+</p>
             <p>Industries Nationwide</p>                
             </div>
 
@@ -58,7 +59,7 @@ export default function Aboutus() {
           <div className="flex items-center gap-4">
             <FaCheckCircle style={{ backgroundColor: "#213f8a" }} />
             <div className="">
-            <p>400+</p>
+            <p><CountUpText end={400} duration={3} />+</p>
             <p>Retailers Nationwide</p>                
             </div>
 
@@ -66,7 +67,7 @@ export default function Aboutus() {
           <div className="flex items-center gap-4">
             <FaCheckCircle style={{ backgroundColor: "#213f8a" }} />
             <div className="">
-            <p>400+</p>
+            <p><CountUpText end={400} duration={3} />+</p>
             <p>Outlets Nationwide</p>                
             </div>
 
