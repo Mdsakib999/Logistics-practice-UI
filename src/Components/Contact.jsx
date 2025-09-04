@@ -1,6 +1,7 @@
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { IoCallSharp, IoLocationSharp } from "react-icons/io5";
 import CustomeBtn from "../utils/CustomeBtn";
+import Preheading from "../utils/Preheading";
 
 
 const Contact = () => {
@@ -10,12 +11,7 @@ const Contact = () => {
         {/* contact form */}
         <div className="w-4/10  mx-auto p-4">
           <form className="space-y-4">
-            <button className="flex items-center w-40 h-9 bg-blue-900 text-white font-medium shadow-md hover:bg-violet-700 transition duration-300 ease-in-out mb-4">
-              <span className="w-1/14 h-full bg-yellow-400"></span>
-              <span className="flex-1 text-center font-semibold text-lg">
-                Get in Touch
-              </span>
-            </button>
+            <Preheading>Get in Touch</Preheading>
             <h2 className="font-bold text-gray-900 text-3xl mb-2">
               Need to make an Inquiry?
             </h2>

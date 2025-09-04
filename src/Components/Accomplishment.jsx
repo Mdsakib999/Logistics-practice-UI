@@ -1,4 +1,5 @@
 import Preheading from "../utils/Preheading";
+import CountUp from "../utils/CountUp";
 
 const Accomplishment = () => {
   return (
@@ -10,7 +11,10 @@ const Accomplishment = () => {
       <div className="grid grid-cols-3 gap-8">
         <div className="space-y-3 flex-col justify-center items-center ">
           <img src="https://i.ibb.co.com/Gf011pgv/car.png" alt="" />
-          <p className="font-bold text-3xl text-center">5,731</p>
+          <p className="font-bold text-3xl text-center">
+                <CountUp end={5731} duration={4} />
+          </p>
+          
           <p className="font-semibold text-xl text-center ">Delivered Packages.</p>
           <p className="opacity-65">
             We strongly support best practice sharing across our operations
@@ -19,7 +23,10 @@ const Accomplishment = () => {
         </div>
         <div className="space-y-3 flex-col justify-center items-center ">
           <img src="https://i.ibb.co.com/hkvmXbK/map.png" alt="" />
-          <p className="font-bold text-3xl text-center">123</p>
+          <p className="font-bold text-3xl text-center">
+            <CountUp end={123} duration={4} />
+          </p>
+          
           <p className="font-semibold text-xl text-center ">Countries covered..</p>
           <p className="opacity-65">
             As one of the world’s leading supply chain management companies, we design and implement industry-leading solutions..
@@ -27,7 +34,9 @@ const Accomplishment = () => {
         </div>
         <div className="space-y-3 flex-col justify-center items-center ">
           <img src="https://i.ibb.co.com/3gkjRHv/goods.png" alt="" />
-          <p className="font-bold text-3xl text-center">476</p>
+          <p className="font-bold text-3xl text-center">
+            <CountUp end={476} duration={4} />
+          </p>
           <p className="font-semibold text-xl text-center ">Tons of goods.</p>
           <p className="opacity-65">
             Our commitment to sustainability helps us reduce waste and share the benefits with our customers.
