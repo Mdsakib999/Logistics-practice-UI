@@ -3,6 +3,7 @@ import Banner from "../../Components/Banner";
 import Contact from "../../Components/Contact";
 import LatestNews from "../../Components/LatestNews";
 import Navbar from "../../Components/Navbar";
+import Ourservice from "../../Components/Ourservice";
 
 const Home = () => {
   //   useEffect(() => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Banner />
       <div className="max-w-7xl mx-auto">
         <Aboutus />
+        <Ourservice />
         <LatestNews />
         <Contact />
       </div>

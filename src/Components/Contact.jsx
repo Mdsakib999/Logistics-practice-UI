@@ -1,5 +1,7 @@
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { IoCallSharp, IoLocationSharp } from "react-icons/io5";
+import CustomeBtn from "../utils/CustomeBtn";
+
 
 const Contact = () => {
   return (
@@ -70,11 +72,7 @@ const Contact = () => {
               />
             </div>
 
-            <button className="flex items-center w-44 h-13 bg-blue-900 text-white font-medium shadow-md hover:bg-violet-700 transition duration-300 ease-in-out mt-2">
-              <span className="flex-1 text-center font-semibold text-lg">
-                Send Message
-              </span>
-            </button>
+            <CustomeBtn>Send Message</CustomeBtn>
           </form>
         </div>
 
