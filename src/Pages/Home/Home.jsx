@@ -4,6 +4,7 @@ import Banner from "../../Components/Banner";
 import Contact from "../../Components/Contact";
 import Experience from "../../Components/Experience";
 import Faq from "../../Components/Faq";
+import Footer from "../../Components/Footer";
 import LatestNews from "../../Components/LatestNews";
 import Navbar from "../../Components/Navbar";
 import Offer from "../../Components/Offer";
@@ -30,6 +31,7 @@ const Home = () => {
         <Faq />
         <Contact />
       </div>
+      <Footer />
     </div>
   );
 };
