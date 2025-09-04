@@ -1,9 +1,9 @@
 // src/components/countUp.jsx
 import CountUp from "react-countup";
 
-const CountUpText = ({ end, duration = 3, className = "" }) => {
+const CountUpText = ({ end, duration = 3 }) => {
   return (
-    <span className={className}>
+    <span>
       <CountUp end={end} duration={duration} />
     </span>
   );
