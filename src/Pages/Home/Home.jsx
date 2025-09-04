@@ -5,6 +5,7 @@ import LatestNews from "../../Components/LatestNews";
 import Navbar from "../../Components/Navbar";
 import Offer from "../../Components/Offer";
 import Ourservice from "../../Components/Ourservice";
+import Working from "../../Components/Working";
 
 const Home = () => {
   //   useEffect(() => {
@@ -17,6 +18,7 @@ const Home = () => {
       <div className="max-w-7xl mx-auto">
         <Aboutus />
         <Offer />
+        <Working />
         <Ourservice />
         <LatestNews />
         <Contact />
