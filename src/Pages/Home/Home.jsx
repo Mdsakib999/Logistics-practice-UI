@@ -1,3 +1,4 @@
+import Aboutus from "../../Components/Aboutus";
 import Banner from "../../Components/Banner";
 import Contact from "../../Components/Contact";
 import LatestNews from "../../Components/LatestNews";
@@ -12,6 +13,7 @@ const Home = () => {
       <Navbar />
       <Banner />
       <div className="max-w-7xl mx-auto">
+        <Aboutus />
         <LatestNews />
         <Contact />
       </div>
