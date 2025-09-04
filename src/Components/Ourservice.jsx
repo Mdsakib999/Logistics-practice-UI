@@ -2,11 +2,11 @@ import Preheading from "../utils/Preheading";
 
 const Ourservice = () => {
   return (
-    <div className="p-10 space-y-5">
+    <div className="p-10 space-y-5 mt-16">
       <Preheading>Our Services</Preheading>
       <h1 className="font-bold text-4xl ">We define excellence in moving <br /> goods from point A to point B</h1>
       <div className="grid grid-cols-4 gap-4">
-        <div className="bg-[url('https://i.ibb.co.com/d0Y5rfd2/pexels-shndgd-33612693.jpg')] h-[500px] rounded-xl relative bg-center bg-cover">
+        <div className="bg-[url('https://i.ibb.co.com/d0Y5rfd2/pexels-shndgd-33612693.jpg')] h-[500px] rounded-xl relative bg-center bg-cover transition-transform duration-500 ease-in-out hover:scale-105 overflow-hidden">
           <button className="absolute top-3 left-4 bg-gray-700 px-2 py-1 rounded-lg text-white text-sm">
             Sea Freight
           </button>
@@ -36,7 +36,7 @@ const Ourservice = () => {
         </div>
 
         {/* card 3  */}
-        <div className="bg-[url('https://i.ibb.co.com/XfTb7MXB/Truck.png')] h-[500px] rounded-xl relative bg-center bg-cover">
+        <div className="bg-[url('https://i.ibb.co.com/XfTb7MXB/Truck.png')] h-[500px] rounded-xl relative bg-center bg-cover transition-transform duration-500 ease-in-out hover:scale-105 overflow-hidden">
           <button className="absolute top-3 left-4 bg-gray-700 px-2 py-1 rounded-lg text-white text-sm">
             Road Freight
           </button>
@@ -51,7 +51,7 @@ const Ourservice = () => {
         </div>
 
         {/* card 4  */}
-        <div className="bg-[url('https://i.ibb.co.com/jk5gMRCp/pexels-pramodtiwari-13970797.jpg')] h-[500px] rounded-xl relative bg-center bg-cover">
+        <div className="bg-[url('https://i.ibb.co.com/jk5gMRCp/pexels-pramodtiwari-13970797.jpg')] h-[500px] rounded-xl relative bg-center bg-cover transition-transform duration-500 ease-in-out hover:scale-105 overflow-hidden">
           <button className="absolute top-3 left-4 bg-gray-700 px-2 py-1 rounded-lg text-white text-sm">
             Rail Freight
           </button>

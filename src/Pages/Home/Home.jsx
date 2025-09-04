@@ -1,6 +1,8 @@
 import Aboutus from "../../Components/Aboutus";
+import Accomplishment from "../../Components/Accomplishment";
 import Banner from "../../Components/Banner";
 import Contact from "../../Components/Contact";
+import Experience from "../../Components/Experience";
 import Footer from "../../Components/Footer";
 import LatestNews from "../../Components/LatestNews";
 import Navbar from "../../Components/Navbar";
@@ -21,6 +23,9 @@ const Home = () => {
         <Offer />
         <Working />
         <Ourservice />
+        <Aboutus />
+        <Experience />
+        <Accomplishment />
         <LatestNews />
         <Contact />
       </div>
